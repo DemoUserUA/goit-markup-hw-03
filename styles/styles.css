@@ -1,0 +1,207 @@
+:root {
+    --secondary-font: 'Raleway', sans-serif;
+    --secondary-text-color: #434455;
+    --accet-color:  #4D5AE5;
+}
+body {
+font-family: 'Roboto', sans-serif;
+color: #2E2F42;
+}
+
+/* Прибираємо маркування */
+.list {
+list-style: none;
+}
+/* Приховуємо нижнє підкреслення */
+.link {
+text-decoration: none;
+}
+
+                  /* --------------------Header FOR INDEX AND PORTFOLIO*/
+.nav-link {
+font-family: var(--secondary-font) ;
+font-weight: 800;
+font-size: 18px;
+line-height: 1.33;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: inherit
+}
+    
+.nav-link-color {
+color: var(--accet-color);
+}
+    
+/* .nav-list {} */
+       
+.nav-list-link{
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: inherit
+}
+    
+.nav-list-link:hover,
+.nav-list-link:focus {
+color:var(--accet-color)
+}
+    
+.address-link {
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: var(--secondary-text-color)
+}
+
+.group-h2-title{
+font-weight: 700;
+font-size: 36px;
+line-height: 1.11;
+letter-spacing: 0.02em;
+text-transform: capitalize;
+}
+
+.group-h3-titles {
+font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+letter-spacing: 0.02em;
+}
+
+.group-paragraph {
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: var(--secondary-text-color)  
+}
+                                    /* Index */
+
+                         /* MAIN */
+      /* Hero */
+
+.hero {
+background-color: #2E2F42;
+}
+
+.hero-title {
+font-weight: 700;
+font-size: 56px;
+line-height: 1.07;
+letter-spacing: 0.02em;
+color: #FFFFFF;
+}
+
+.hero-btn {
+font-family: inherit;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.04em;
+color: #FFFFFF;
+background-color: var(--accet-color);
+cursor: pointer;
+}
+
+        /* Features */
+.visually-hidden {
+position: absolute;
+width: 1px;
+height: 1px;
+margin: -1px;
+border: 0;
+padding: 0;
+white-space: nowrap;
+clip-path: inset(100%);
+clip: rect(0 0 0 0);
+overflow: hidden;
+}
+
+.features-list {
+padding: 0px;
+}
+
+.features-item {
+}
+
+.features-title {
+}
+
+.features-description {
+}
+
+        /* Abour our work */
+
+.work-title{
+}
+
+.work-list {
+}
+
+.work-item-img {
+}
+
+        /* Team */
+
+.team-list {
+}
+
+.team-item {
+}
+
+.team-img {
+}
+
+.team-name {
+}
+
+.team-position {
+}
+
+                            /* FOOTER */
+.footer {
+background-color: #2E2F42;
+}
+.footer-link{
+    font-family: var(--secondary-font);
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #F4F4FD;
+}
+.footer-link-color{
+    color: var(--accet-color);
+}
+
+.footer-description {
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #E7E9FC;
+}
+
+/* ------------Portfolio------- */
+
+.filters-button{
+font-family: inherit;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.04em;
+color: var(--accet-color);
+background: #F4F4FD;
+cursor: pointer;
+border: 1px solid #E7E9FC;
+border-radius: 4px;
+}
+
+.filters-button:hover,
+.filters-button:focus {
+color: #FFFFFF;
+background: #404BBF;
+}

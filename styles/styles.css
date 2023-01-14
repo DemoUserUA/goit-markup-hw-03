@@ -374,22 +374,27 @@ column-gap: 24px;
 }
 
 .project-item {
-border: 1px solid #E7E9FC;
+
 }
 
 .project-img {
-width: 358px;
+width: 360px;
 }
 
-
-.project-group-text {
+.project-name {
 margin-top: 32px;
-margin-bottom: 32px;
 margin-left: 16px;
 }
 
+.project-group-text {
+border: 1px solid #E7E9FC;
+}
+
 .project-title {
+margin-top: 32px;
 margin-bottom: 8px;
+margin-left: 16px;
+
 }
 
 
